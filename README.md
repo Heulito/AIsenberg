@@ -14,7 +14,7 @@ cd AIsenberg
 ```
 3. Create conda environment called WebAPP
 ```
-conda create -n WebAPP python=3.7.9
+conda create -n WebAPP python=3.8
 ```
 4. Activate conda environment
 ```
