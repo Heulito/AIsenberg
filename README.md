@@ -22,9 +22,13 @@ conda activate WebAPP
 ```
 5. Install the dependencies
 ```
-pip install -r dependencies.txt
+pip install -r requirements.txt
 ```
 6. Unzip the model
 ```
-unip 
+unzip moab_model.zip 
+```
+7. run the Web Application
+```
+streamlit run WebAPP_IC50.py
 ```
