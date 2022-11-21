@@ -1,0 +1,11 @@
+streamlit
+pandas
+stmol
+base58
+subprocess
+os
+pickle
+rdkit
+py3Dmol
+stmol
+sympy
