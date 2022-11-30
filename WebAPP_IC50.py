@@ -137,17 +137,17 @@ if st.sidebar.button('Predict'):
         desc_calc()
 
     # Read in calculated descriptors and display the dataframe
-    st.header('**Calculated molecular descriptors**')
+   # st.header('**Calculated molecular descriptors**')
     desc = pd.read_csv('descriptors_output.csv')
-    st.write(desc)
-    st.write(desc.shape)
+   # st.write(desc)
+   # st.write(desc.shape)
 
     # Read descriptor list used in previously built model
-    st.header('**Subset of descriptors from previously built models**')
+    #st.header('**Subset of descriptors from previously built models**')
     Xlist = list(pd.read_csv('descriptor_list.csv').columns)
     desc_subset = desc[Xlist]
-    st.write(desc_subset)
-    st.write(desc_subset.shape)
+   # st.write(desc_subset)
+   # st.write(desc_subset.shape)
 
     # Apply trained model to make prediction on query compounds
     build_model(desc_subset)
