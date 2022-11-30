@@ -24,10 +24,6 @@ conda activate WebAPP
 ```
 pip install -r requirements.txt
 ```
-6. Unzip the model
-```
-unzip moab_model.zip 
-```
 7. run the Web Application
 ```
 streamlit run WebAPP_IC50.py
